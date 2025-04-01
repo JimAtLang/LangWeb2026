@@ -1,0 +1,16 @@
+#backgrounder {
+    background: linear-gradient(#ffffff, #00c61a);
+}
+
+
+#leftText {
+    text-align: left;
+}
+
+#rightText {
+    text-align: right;
+}
+
+p1 {
+    width: 100%;
+}
