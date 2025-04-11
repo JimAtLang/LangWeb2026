@@ -1,9 +1,6 @@
-body {
-    
-}
 
 .backgrounder {
-    background: linear-gradient(#ffffff, #00c61a);
+    background: linear-gradient( white, #00c61a);
     background-size: cover;
     height: 100%;
 }
@@ -33,7 +30,11 @@ nav {
     top: 0;
 }
 
-#pageEnd {
-    position: absolute;
-    top: 1000px;
+img {
+    position: relative;
+    top: 75px;
+    left: 100px;
+    height: 200px;
+    width: 200px;
+    border: black 20px;
 }
