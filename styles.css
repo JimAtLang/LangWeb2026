@@ -31,10 +31,11 @@ nav {
 }
 
 img {
+    margin-left: 20px;
     position: relative;
     top: 75px;
     left: 100px;
     height: 200px;
     width: 200px;
-    border: black 20px;
+    border: 10px solid black;
 }
