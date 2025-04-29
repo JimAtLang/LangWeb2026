@@ -26,16 +26,37 @@ nav {
     background-color: black;
     width: 100%;
     height: 50px;
-    position: absolute;
+    position: sticky;
     top: 0;
 }
 
-img {
-    margin-left: 20px;
-    position: relative;
-    top: 75px;
-    left: 100px;
+.image {  
     height: 200px;
     width: 200px;
-    border: 10px solid black;
 }
+
+.label {
+    top: 150px;
+    left: 100px;
+}
+
+figure {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border: black solid 1px;
+}
+
+figcaption {
+    color: black;
+    text-align: center;
+    width: 200px;
+    height: 20px;
+}
+
+#imgContainer {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
