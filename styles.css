@@ -40,18 +40,17 @@ nav {
     left: 100px;
 }
 
-figure {
-    height: 200px;
+figure {   
     width: 200px;
     display: inline-block;
-    border: black solid 1px;
 }
 
 figcaption {
+    text-wrap: wrap;
+    padding-bottom: 100px;
     color: black;
     text-align: center;
     width: 200px;
-    height: 20px;
 }
 
 #imgContainer {
@@ -60,8 +59,11 @@ figcaption {
     overflow-y: scroll;
 }
 
+.image {
+    border: black solid 3px;
+}
+
 #websiteTitle {
-    display: inline-block;
     color: white;
     border:#00c61a 1px solid;
     height: 50px;
