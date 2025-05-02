@@ -72,8 +72,7 @@ figcaption {
 }
 
 .dropdown {
-    
-    height: 50px;
+    height: 60px;
     align-self: flex-end;
     width: 10%;
     background-color: rgb(0, 0, 0);
@@ -85,17 +84,30 @@ figcaption {
     color: white;
     padding: 14px;
     border: none;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .dropdown-content {
+    background-color: rgb(71, 71, 71);
     display: none;
     position: absolute
+    width: 50px;
 }
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
 
 #navDrop {
     
 }
 
+#aaa {
+    color: black;
+}
 
-
-.show {display:block};
+.show {display:block;}
