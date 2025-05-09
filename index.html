@@ -4,79 +4,39 @@
         <link rel = "stylesheet" href = "styles.css">
     </head>
     <body>
-      <h1>
-        Yearbook Online
-      </h1>
-      <div class="credit">
-        <h2>
-          Credits:
-        </h2>
-        <div id="design">
-          <h2>
-            Design Team
-          </h2>
-          <ul>
-            <li>Max Fekete</li>
-            <li>George Nemerever</li>
-          </ul>
-        </div>
+        
+        <nav>
+            <h1 id="websiteTitle">Lang Student Website</h1>
+            <div class="dropdown">
+                <button onclick="dropperDown()" class="dropbtn">Menu</button>
+                <div id="navDrop" class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="picturePage.html">Yearbook</a>
+                    <a href="#">Wet Pall</a>
+                    <a href="#">Newspaper</a>
+                </div>
+            </div>
+        </nav>
+        <div class="backgrounder">
+        <br>
+        <br>
+        <br>
+        <p id="p1">
+            <span id="leftText">
+                Design<br>
+                <strong>Max Fekete<br>
+                    George Nemerever</strong><br>
+                    Editors<br>
+                <strong>Ella Newman<br>
+                    Lily Newman</strong>
+            </span>
+            
 
-        <div id="webdev">
-          <h2>
-            WebDev Team
-          </h2>
-          <ul>
-            <li>Jose Campos</li>
-            <li>Skyler Wiklund</li>
-            <li>Conrad Thompson</li>
-          </ul>
-        </div>
-
-        <div id="editorial">
-          <h2>
-            Editorial Team
-          </h2>
-          <ul>
-            <li>Ella Newman</li>
-            <li>Lily Newman</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="quotes">
-        <div id="skyler">
-          <img src="Neco.png" alt="Neco Acevado" width="400" height="400">
-          <p>
-            <q>
-              Insert quote here.
-            </q>
-            <br>
-            - Neco Acevado
-          </p>
-        </div>
-
-        <div id="skyler">
-          <img src="Skyler.png" alt="Skyler Wiklund" width="400" height="400">
-          <p>
-            <q>
-              Insert quote here.
-            </q>
-            <br>
-            - <a href="Skyler.png">Skyler Wiklund</a>
-          </p>
-        </div>
-
-        <div id="rosa">
-          <img src="Rosa.png" alt="Rosa Simms" width="400" height="400">
-          <p>
-            <q>
-              Insert quote here.
-            </q>
-            <br>
-            - Rosa Simms
-          </p>
-        </div>
-      </div>
+            
+        </p>
+        </div>  
+        <script src="script.js"></script>  
     </body>
-    <script src="scripts.js"></script>
-</html>
+    
+    
+</html> 
