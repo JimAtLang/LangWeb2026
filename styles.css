@@ -39,14 +39,15 @@ figcaption {
     width: 200px;
 }
 
-#imgContainer {
+.imgContainer {
     height: 100%;
     width: 100%;
     overflow-y: scroll;
-    display: flex;
+    display: none;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .image {
@@ -58,9 +59,10 @@ figcaption {
 #websiteTitle {
     align-self: flex-start;
     color: white;
-    height: 50px;
-    width: 15%;
+    max-height: 50px;
+    min-width: 15%;
     text-align: center;
+    margin-top: 30px;
 }
 
 .dropdown {
@@ -97,3 +99,5 @@ figcaption {
   }
 
 .show {display:block;}
+
+.flex {display:flex;}
