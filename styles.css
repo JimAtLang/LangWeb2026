@@ -98,8 +98,14 @@ figcaption {
     display: block;
   }
 
+#pageEnd {
+    display: block;
+    background: black;
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
+}
+
 .show {display:block;}
 
 .flex {display:flex;}
-
-.noShow {display:none;}
