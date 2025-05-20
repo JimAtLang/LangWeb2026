@@ -2,7 +2,9 @@
 .backgrounder {
     background: linear-gradient( white, #00c61a);
     background-size: cover;
+    background-attachment: fixed;
     height: 100%;
+    overflow-y: scroll;
 }
 
 #leftText {
@@ -42,12 +44,14 @@ figcaption {
 .imgContainer {
     height: 100%;
     width: 100%;
-    overflow-y: scroll;
     display: none;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
 
+.defaultClass {
+    display: flex !important;
 }
 
 .image {
@@ -59,10 +63,13 @@ figcaption {
 #websiteTitle {
     align-self: flex-start;
     color: white;
+    font-size: 35px;
     max-height: 50px;
     min-width: 15%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: underline overline green;
 }
 
 .dropdown {
