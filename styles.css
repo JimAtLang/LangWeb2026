@@ -42,7 +42,6 @@ figcaption {
 }
 
 .imgContainer {
-    height: 100%;
     width: 100%;
     display: none;
     flex-direction: row;
@@ -57,6 +56,30 @@ figcaption {
 .image {
     border: black solid 3px;
     width: 200px;
+}
+
+#buttonRow {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cpb {
+    height: 80px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+#PPHT {
+    background-color: #97E8A2;
+    text-align: center;
+    height: 200px;
+    width: 100%
 }
 
 #websiteTitle {
